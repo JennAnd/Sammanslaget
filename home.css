@@ -1,0 +1,53 @@
+:root {
+  /* --background-color: #ffffff; */
+  --primary-color: #696767;
+  --font-color: #cf2e2e;
+}
+
+@font-face {
+  font-family: "Frutiger Roman";
+  src: url("fonts/FrutigerRoman.woff2") format("woff2");
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Frutiger Roman";
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--font-color);
+  display: flex;
+  justify-content: center;
+  margin-top: 3.125rem;
+}
+
+body {
+  margin: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.game-start {
+  width: 100%;
+  height: 300px;
+  background-color: #cf2e2e;
+  margin-right: 2.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .game-start {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
