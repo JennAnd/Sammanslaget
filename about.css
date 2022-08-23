@@ -1,0 +1,42 @@
+:root {
+  /* --background-color: #ffffff; */
+  --primary-color: #696767;
+  --font-color: #cf2e2e;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-Regular.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.25rem;
+  color: var(--primary-color);
+  font-family: "Nunito Sans";
+}
+
+a {
+  margin-top: 1.25rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 16px;
+}
+
+.about-us {
+  margin-bottom: 6.125rem;
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 768px) {
+}
