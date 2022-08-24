@@ -1,5 +1,7 @@
 :root {
-  --primary-color: #696767;
+  --light-background-color: #e6e0e0;
+  --background-color: #d8d1d1;
+  --primary-color: #605d5d;
   --font-color: #cf2e2e;
 }
 
@@ -7,8 +9,64 @@
   font-family: "Frutiger Roman";
   src: url("fonts/FrutigerRoman.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-Regular.woff2") format("woff2");
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 1.25rem;
+  margin-left: 2.125rem;
+  background-color: var(--light-background-color);
+}
+
+a:active {
+  color: var(--font-color);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.nav-wrapper {
+  margin-bottom: 2.95rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav {
+  color: var(--font-color);
+  font-weight: 900;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  margin-left: 10px;
+  /* margin-right: 20px; */
+  font-size: small;
+  font-family: "Nunito Sans";
+}
+
+.right-side {
+  margin-right: 17px;
+}
+
+.logo a {
+  color: var(--font-color);
+  font-family: "Frutiger Roman";
+}
+
+a {
+  margin-top: 1.25rem;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 h1 {
@@ -21,15 +79,11 @@ h1 {
   margin-top: 3.125rem;
 }
 
-body {
-  margin: 1.25rem;
-}
-
-a {
+/* a {
   text-decoration: none;
   font-size: 20px;
   color: var(--primary-color);
-}
+} */
 
 .game-start {
   width: 100%;
