@@ -25,8 +25,14 @@ body {
   background-color: var(--light-background-color);
 }
 
-a:active {
+/* a:active {
   color: var(--font-color);
+  font-weight: bold;
+  text-decoration: underline;
+} */
+
+.active a {
+  color: black;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -77,19 +83,6 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 3.125rem;
-}
-
-/* a {
-  text-decoration: none;
-  font-size: 20px;
-  color: var(--primary-color);
-} */
-
-.game-start {
-  width: 100%;
-  height: 300px;
-  background-color: #cf2e2e;
-  margin-right: 2.5rem;
 }
 
 @media screen and (min-width: 480px) {
