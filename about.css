@@ -41,6 +41,7 @@ body {
 .right-nav {
   display: flex;
   flex-direction: row;
+  margin-right: 16px;
 }
 a img {
   height: 80px;
@@ -51,12 +52,6 @@ a img {
   margin-left: 10px;
   font-size: small;
 }
-
-/* .logo a {
-  color: var(--font-color);
-  font-family: "Frutiger Roman";
-  font-size: 25px;
-} */
 
 a {
   margin-top: 1.25rem;
@@ -77,7 +72,6 @@ a {
   display: flex;
   justify-content: center;
   margin-left: 4.5%;
-  /* margin-right: 20%; */
 }
 
 .project-text {
@@ -90,15 +84,7 @@ a {
 }
 
 .yrgo-logo {
-  /* width: 50px; */
   height: 40px;
-  /* border-radius: 0; */
-}
-
-.bjorkafrihet-logo {
-  /* width: 50px; */
-  height: 40px;
-  /* border-radius: 0; */
 }
 
 .portrait {
@@ -111,15 +97,23 @@ a {
   margin-bottom: 6.125rem;
 }
 
+.about-us-last {
+  margin-bottom: 3.125rem;
+}
+
 h1 {
   margin-bottom: 0;
   font-size: 28px;
 }
 
 .profession {
-  margin-top: 4%;
+  margin-top: 2px;
   color: var(--font-color);
-  margin-bottom: 2px;
+  margin-bottom: 10px;
+}
+
+.linkedin {
+  text-decoration: underline;
 }
 
 h2 {
@@ -128,8 +122,8 @@ h2 {
 }
 
 .name {
-  margin-top: 2px;
-  margin-bottom: 10px;
+  margin-top: 2%;
+  margin-bottom: 0px;
 }
 
 p {
@@ -140,21 +134,16 @@ p {
   position: relative;
   width: 100%;
   margin-top: 0;
+  text-decoration: underline;
 }
-
-/* p.copyright {
-  width: 100%;
-  line-height: 40px;
-  font-size: 0.7em;
-  text-align: left;
-  bottom: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-} */
 
 @media screen and (min-width: 480px) {
   .profession {
-    margin-top: 6%;
+    margin-top: 0.1%;
+  }
+
+  .name {
+    margin-top: 4%;
   }
 }
 
@@ -163,11 +152,10 @@ p {
     display: flex;
     justify-content: center;
   }
-
-  /*   .portrait {
-    height: 200px;
-    width: 200px;
-  } */
+  .about-us-last {
+    display: flex;
+    justify-content: center;
+  }
 
   .text-wrapper {
     margin-left: 30px;
