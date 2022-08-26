@@ -25,12 +25,6 @@ body {
   background-color: var(--light-background-color);
 }
 
-/* a:active {
-  color: var(--font-color);
-  font-weight: bold;
-  text-decoration: underline;
-} */
-
 .active a {
   color: black;
   font-weight: bold;
@@ -54,7 +48,6 @@ body {
 
 .nav {
   margin-left: 10px;
-  /* margin-right: 20px; */
   font-size: small;
   font-family: "Nunito Sans";
 }
@@ -66,12 +59,6 @@ img {
 .right-side {
   margin-right: 17px;
 }
-
-/* .logo a {
-  color: var(--font-color);
-  font-family: "Frutiger Roman";
-  font-size: 25px;
-} */
 
 a {
   margin-top: 1.25rem;
