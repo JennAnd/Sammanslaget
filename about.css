@@ -130,6 +130,14 @@ p {
   margin-top: 0;
 }
 
+.sources-heading {
+  font-weight: bold;
+}
+
+.sources {
+  text-decoration: underline;
+}
+
 .footer a {
   position: relative;
   width: 100%;
